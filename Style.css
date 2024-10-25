@@ -1,0 +1,68 @@
+/* Agrega un comentario aquí para explicar la función del selector body */
+body {
+    /* Este atributo es para definir la fuente */
+    font-family: sans-serif;
+    /* Agrega un comentario aquí para explicar el atributo margin */
+    margin: 0;
+    /* Este atributo sirve para dar un fondo con una degradacion el cuerpo de la pagina */
+    background: linear-gradient(blue, pink);
+   
+    
+}
+
+/*  selector .contenedor nos permite agrupar y aplicar cambios a todos los elementos dentro del mismo */
+.contenedor {
+    /* el atributo display permite alteral las dimenciones de los elementos dentro del contenedor   */
+    display: flex; 
+    /*  el atributo flex-wrap permite controlar el desbordamiento de los elementos*/
+    flex-wrap: wrap; 
+    /*  el atributo justify-content permite alinear el contenido dentro del contenedor*/
+    justify-content: space-around; 
+    
+    /* Crea un borde interno */
+    padding: 20px;
+    
+    
+}
+/* Agrega un comentario aquí para explicar la función del selector .tarjeta */
+.tarjeta {
+    /* Agrega un comentario aquí para explicar el atributo width */
+    width: 300px; 
+    /* Agrega un comentario aquí para explicar el atributo margin */
+    margin: 10px; 
+    /* Agrega un comentario aquí para explicar el atributo border */
+    border: 1px solid #860d0d; 
+    /* Agrega un comentario aquí para explicar el atributo padding */
+    padding: 20px; 
+    /* Agrega un comentario aquí para explicar el atributo border-radius */
+    border-radius: 5px; 
+    /* Agrega un comentario aquí para explicar el atributo box-shadow */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+/* Agrega un comentario aquí para explicar la función del selector .tarjeta img */
+.tarjeta img {
+    /* Agrega un comentario aquí para explicar el atributo width */
+    width: 100%; 
+    /* Agrega un comentario aquí para explicar el atributo height */
+    height: auto; 
+    /* Agrega un comentario aquí para explicar el atributo display */
+    display: block; 
+    /* Agrega un comentario aquí para explicar el atributo border-radius */
+    border-radius: 5px 5px 0 0; 
+}
+/* Agrega un comentario aquí para explicar la función del selector .tarjeta h3 */
+.tarjeta h3 {
+    /* Agrega un comentario aquí para explicar el atributo margin-top */
+    margin-top: 10px; 
+    color: blue;
+    
+}
+
+/* Agrega un comentario aquí para explicar la función del selector .tarjeta p */
+.tarjeta p {
+    /* Agrega un comentario aquí para explicar el atributo font-size */
+    font-size: 0.9em; 
+    /* Agrega un comentario aquí para explicar el atributo line-height */
+    line-height: 1.5; 
+    color: deeppink;
+}
