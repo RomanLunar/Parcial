@@ -19,50 +19,52 @@ body {
     /*  el atributo justify-content permite alinear el contenido dentro del contenedor*/
     justify-content: space-around; 
     
-    /* Crea un borde interno */
+    /* Crea una margen interno */
     padding: 20px;
     
     
 }
-/* Agrega un comentario aquí para explicar la función del selector .tarjeta */
+/* la función del selector .tarjeta sirve para aplicar cambios a todos los elementos denominados con esta etiqueta*/
 .tarjeta {
-    /* Agrega un comentario aquí para explicar el atributo width */
+    /*el atributo width sirve para establecer el ancho del elemento */
     width: 300px; 
-    /* Agrega un comentario aquí para explicar el atributo margin */
+    /*el atributo margin permite establecer una margen exterior */
     margin: 10px; 
-    /* Agrega un comentario aquí para explicar el atributo border */
+    /* el atributo border permite agregar un borde al elemento, se puede establecer el tipo y el color*/
     border: 1px solid #860d0d; 
-    /* Agrega un comentario aquí para explicar el atributo padding */
+    /* atributo padding crea una margen externa*/
     padding: 20px; 
-    /* Agrega un comentario aquí para explicar el atributo border-radius */
+    /* el atributo border-radius ayuda a redondear las esquinas */
     border-radius: 5px; 
-    /* Agrega un comentario aquí para explicar el atributo box-shadow */
+    /* el atributo box-shadow permite agregar efectos de sombra en al rededor del marco*/
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
-/* Agrega un comentario aquí para explicar la función del selector .tarjeta img */
+/* la función del selector .tarjeta img sirve para aplicar cambios a todos los elementos denominados con esta etiqueta */
 .tarjeta img {
-    /* Agrega un comentario aquí para explicar el atributo width */
+    /* el atributo width sirve para establecer el ancho del elemento */
     width: 100%; 
-    /* Agrega un comentario aquí para explicar el atributo height */
+    /* el atributo height sirve para estabelecer el alto del elemento, cuando se utiliza en auto se ajusta al tamaño del container */
     height: auto; 
-    /* Agrega un comentario aquí para explicar el atributo display */
+    /*  el atributo display block ayuda a que los elementos respeten los anchos y altos y las margenes */
     display: block; 
-    /* Agrega un comentario aquí para explicar el atributo border-radius */
+    /* el atributo border-radius ayuda a redondear las esquinas  */
     border-radius: 5px 5px 0 0; 
 }
-/* Agrega un comentario aquí para explicar la función del selector .tarjeta h3 */
+/* el selector .tarjeta h3 sirve para aplicar cambios a todos los elementos denominados con esta etiqueta */
 .tarjeta h3 {
-    /* Agrega un comentario aquí para explicar el atributo margin-top */
+    /*el atributo margin-top ayuda a establecer la altura de la margen superior */
     margin-top: 10px; 
+    /*El atribu color permite cambiar el color del texto*/
     color: blue;
     
 }
 
-/* Agrega un comentario aquí para explicar la función del selector .tarjeta p */
+/*el selector .tarjeta p sirve para aplicar cambios a todos los elementos denominados con esta etiqueta  */
 .tarjeta p {
-    /* Agrega un comentario aquí para explicar el atributo font-size */
+    /* font-size estable el tamaño de la letra */
     font-size: 0.9em; 
-    /* Agrega un comentario aquí para explicar el atributo line-height */
+    /*el atributo line-height define el espacio de la linea*/
     line-height: 1.5; 
+    /*El atribu color permite cambiar el color del texto*/
     color: deeppink;
 }
